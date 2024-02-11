@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L*LM</title>
+    <!-- Minified version -->
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><i>L<sup>∗</sup>LM </h1>
+        <h2>Learning Automata from Examples using Natural Language Oracles</h2>
+
+        <ol>
+            <li>Marcell Vazquez-Chanlatte</li>
+            <li>Karim Elmaaroufi</li>
+            <li>Stefan Witwicki</li>
+            <li>Sanjit A. Seshia</li>
+        </ol>
+
+        <nav>
+            <ul>
+                <li><a href="#abstract">Abstract</a></li>
+                <li><a href="#paper">Paper 📜</a></li>
+                <li><a href="#code">Code <img src="assets/github-icon.svg"/></a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <section id="splash">
+            <figure>
+                <img src="assets/algorithm_overview.svg"/>
+            </figure>
+        </section>
+        <section id="abstract">
+            <h2>Abstract</h2>
+        
+            <p>
+            Expert demonstrations have proven an easy way to indirectly specify
+            complex tasks. Recent algorithms even support extracting
+            unambiguous formal specifications, e.g. deterministic finite
+            automata (DFA), from demonstrations. Unfortunately, these
+            techniques are generally not sample efficient. In this work, we
+            introduce L<sup>*</sup>LM an algorithm for learning DFAs from both
+            demonstrations <i>and</i> natural language. Due to the expressivity
+            of natural language, we observe a significant improvement in the
+            data efficiency of learning DFAs from expert demonstrations.
+            Technically, L<sup>*</sup>LM leverages large language models to
+            answer membership queries about the underlying task. This is then
+            combined with recent techniques for transforming learning from
+            demonstrations into a sequence of labeled example learning
+            problems. In our experiments, we observe the two modalities
+            complement each other, yielding a powerful few-shot learner.
+            </p>
+
+        </section>
+    </main>
+</body>
+</html>
