@@ -18,6 +18,13 @@ header {
     text-align: center;
 }
 
+body header p {
+    font-size: 0.8em;
+    color: #888;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
 nav ul {
     list-style: none;
     margin: 0;
@@ -83,3 +90,4 @@ section#abstract p {
   text-align: justify; 
 }
 
+img#logo { padding: 0.05em 1em; }
