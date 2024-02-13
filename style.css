@@ -6,6 +6,11 @@ body {
     padding: 0;
 }
 
+img#splash {
+    height: 20em;
+    margin: 2em;
+}
+
 header {
     background-color: #333;
     color: #fff;
