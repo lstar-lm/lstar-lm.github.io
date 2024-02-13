@@ -90,4 +90,7 @@ section#abstract p {
   text-align: justify; 
 }
 
-img#logo { padding: 0.05em 1em; }
+img#logo { 
+  max-height: 2em;
+  padding: 0.05em 1em;
+} 
